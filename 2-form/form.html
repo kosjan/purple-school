@@ -4,17 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Form</title>
 </head>
 
-<body style="background-image: linear-gradient(0deg, #F39494, #F39494),
-linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%),
-linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%);
-">
-    <main style="background: white;width: 400px;margin: 20% auto;">
+<body>
+    <main>
         <h1>Регистрация</h1>
         <h2>Уже есть аккаунт? <a href="#">Войти</a></h2>
-        <h3>Мой компания</h3>
+        <h3>Моя компания:</h3>
         <form action="#" method="get">
             <div>
                 <label for="name">Имя</label>
@@ -29,7 +27,7 @@ linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%);
                 <input type="email" name="email" id="email" placeholder="Email" required>
             </div>
             <button type="submit">Зарегистрироваться</button>
-            <div>
+            <div class="agreement">
                 <input type="checkbox" name="agree" id="agree" required>
                 <label for="agree">Я прочитал и принимаю <a href="#">Условия использования</a></label>
             </div>
