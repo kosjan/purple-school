@@ -1,0 +1,42 @@
+body {
+    background-image: linear-gradient(0deg, #F39494, #F39494),
+        linear-gradient(243.43deg, #FFA5A5 32.96%, rgba(255, 255, 255, 0) 82.03%),
+        linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%);
+}
+
+main {
+    width: 400px;
+    margin: 20% auto;
+    background-color: #1e1f28;
+    padding: 10%;
+    border-radius: 15px;
+}
+
+input,
+textarea,
+select {
+    background-color: #2E2D3D;
+}
+
+h1,
+input,
+select {
+    color: #fafafa;
+}
+
+label {
+    color: #AFB2BF;
+}
+
+button {
+    background-color: #6C38CC;
+    color: #fafafa
+}
+
+h1 {
+    font-family: 'Fira Sans', monospace;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+}
