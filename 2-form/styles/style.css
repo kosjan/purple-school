@@ -39,7 +39,8 @@ h3 {
 
 input {
     background: #F5F5F5;
-    border: none
+    border: none;
+    border-radius: 5px;
 }
 
 label {
@@ -55,7 +56,7 @@ button {
     background-color: #089FE0;
     color: white;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     text-align: center;
     margin: 2% auto;
     display: block;
