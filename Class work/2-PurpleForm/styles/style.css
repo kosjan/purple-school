@@ -24,6 +24,14 @@ select {
     color: #fafafa;
 }
 
+input:invalid {
+    background: red;
+}
+
+input:valid {
+    background: green;
+}
+
 label {
     color: #AFB2BF;
 }
@@ -39,8 +47,4 @@ h1 {
     font-size: 36px;
     line-height: 120%;
     text-align: center;
-}
-
-input[type="email"] {
-    background: red;
 }
