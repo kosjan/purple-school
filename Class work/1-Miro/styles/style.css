@@ -1,6 +1,7 @@
 #searchButton {
     background-color: #4262FF;
     color: #FFFFFF;
+    font-size: 18px;
 }
 
 #searchButton:hover {
@@ -9,6 +10,9 @@
 
 .search {
     border-radius: 10px;
+    margin: 0 0 10px 0;
+    width: 448px;
+    height: 48px;
 }
 
 .heroForm input:focus {
@@ -23,6 +27,7 @@
     font-size: 48px;
     line-height: 56px;
     letter-spacing: 1px;
+    margin: 60px 0 0 40px;
 }
 
 p {
@@ -36,11 +41,13 @@ p {
 
 .parNewsHead {
     color: #050038;
+    margin: 17px 0 0 40px;
 
 }
 
 .parNews {
     color: #686786;
+    margin: 19px 0 0 40px;
 
 }
 
@@ -60,6 +67,7 @@ header a {
 .link {
     color: #4262FF;
     text-decoration: underline;
+    margin: 39px 0 0 40px;
 }
 
 .link:hover {
@@ -89,6 +97,11 @@ hr {
 
 }
 
+.heroForm {
+    margin: 55px 0 0 40px;
+}
+
+
 .heroForm+p {
     color: #050038;
     font-family: "Roboto";
@@ -97,4 +110,5 @@ hr {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0%;
+    margin: 8px 0 0 40px;
 }
