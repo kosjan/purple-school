@@ -4,18 +4,37 @@ body {
         linear-gradient(243.18deg, #FDC5C5 25.45%, rgba(242, 152, 222, 0) 100%);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 main {
-    width: 400px;
+    width: 50%;
     margin: 8% auto;
     background-color: #1e1f28;
     padding: 10%;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 input,
 textarea,
 select {
     background-color: #2E2D3D;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    font-family: 'Fira Sans', monospace;
+    padding: 27px 48px 12px;
+    border-radius: 10px;
+    border: none;
+    width: 110%;
+}
+
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
+    color: #3b3d4c;
+    font-size: 16px;
 }
 
 h1,
@@ -24,27 +43,48 @@ select {
     color: #fafafa;
 }
 
-input:invalid {
-    background: red;
-}
-
-input:valid {
-    background: green;
-}
-
 label {
+    position: absolute;
+    top: 12px;
+    left: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    font-family: 'Fira Sans', monospace;
     color: #AFB2BF;
 }
 
 button {
     background-color: #6C38CC;
-    color: #fafafa
+    color: #fafafa;
+    border: none;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    font-family: 'Fira Sans', monospace;
+    padding: 12px 24px;
 }
 
 h1 {
     font-family: 'Fira Sans', monospace;
     font-weight: 400;
-    font-size: 36px;
+    /* font-size: 36px; */
+    font-size: 4vw;
     line-height: 120%;
     text-align: center;
+    margin: 0 0 32px 0;
+}
+
+.field {
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.field img {
+    position: absolute;
+    top: 17px;
+    left: 16px;
+
 }

@@ -9,7 +9,7 @@
 }
 
 .search {
-    border-radius: 10px;
+    border-radius: 32px;
     margin: 0 0 10px 0;
     width: 448px;
     height: 48px;
@@ -112,3 +112,27 @@ hr {
     letter-spacing: 0%;
     margin: 8px 0 0 40px;
 }
+
+/* animation */
+
+/* .exp div {
+    width: 200px;
+    height: 200px;
+    background-color: #050038;
+    margin: 10px;
+    animation: my-move 2s ease forwards;
+}
+
+@keyframes my-move {
+    0% {
+        transform: translateX(0%);
+    }
+
+    50% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(100%) translateY(-100%);
+    }
+} */
