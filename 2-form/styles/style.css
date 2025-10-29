@@ -7,8 +7,13 @@ body {
 main {
     background: white;
     width: 400px;
-    margin: 4% auto;
-    padding: 7% 3% 7% 3%;
+    margin: 10% auto;
+    padding: 4% 4%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -17,7 +22,6 @@ h1 {
     font-size: 36px;
     line-height: 100%;
     letter-spacing: 0%;
-    text-align: center;
 }
 
 h2 {
@@ -26,7 +30,6 @@ h2 {
     font-size: 18px;
     line-height: 100%;
     letter-spacing: 0%;
-    text-align: center;
 }
 
 h3 {
@@ -35,12 +38,36 @@ h3 {
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 0%;
+    align-self: self-start;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 input {
     background: #F5F5F5;
     border: none;
     border-radius: 5px;
+    padding: 16px 8px;
+    margin: 11px 0;
+}
+
+.fio {
+    display: flex;
+}
+
+#email {
+    width: 96%;
+}
+
+.email {
+    width: 100%;
 }
 
 label {
@@ -57,13 +84,12 @@ button {
     color: white;
     border: none;
     border-radius: 5px;
-    text-align: center;
     margin: 2% auto;
-    display: block;
+    display: inline-block;
+    width: 100%;
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 18px;
-    line-height: 100%;
     padding: 10px 70px 10px 70px;
 }
 
@@ -77,4 +103,15 @@ a {
     font-size: 14px;
     line-height: 100%;
     letter-spacing: 0%;
+}
+
+.accept {
+    width: 100%;
+    position: relative;
+}
+
+.accept img {
+    position: absolute;
+    top: 17px;
+    right: 16px;
 }
